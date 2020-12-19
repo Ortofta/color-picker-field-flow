@@ -4,3 +4,10 @@ rebel.xml
 # IntelliJ IDEA
 *.iml
 .idea
+node_modules
+webpack.generated.js
+webpack.config.js
+.vscode/
+.settings/
+.project
+.classpath
