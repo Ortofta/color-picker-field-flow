@@ -1,9 +1,9 @@
-[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/jucharcolor-picker-field-flow)
-
 # ColorPickerField component for Vaadin Flow
 
 This project is the Component wrapper implementation of [`<color-picker-field>`](https://github.com/Juchar/color-picker-field) element
 for use from the server side with [Vaadin Flow](https://github.com/vaadin/flow).
+
+This repository is a fork from [Juchar/color-picker-field-flow](https://github.com/Juchar/color-picker-field-flow).
 
 ## Converted vs. Raw Value
 There are two implementations of the color picker:
@@ -27,7 +27,7 @@ To use the component in an application using maven,
 add the following dependency to your `pom.xml`:
 ```
 <dependency>
-    <groupId>com.github.juchar</groupId>
+    <groupId>com.github.ortofta</groupId>
     <artifactId>color-picker-field-flow</artifactId>
     <version>${component.version}</version>
 </dependency>
