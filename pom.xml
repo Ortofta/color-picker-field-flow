@@ -4,14 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.appreciated</groupId>
+    <groupId>com.github.ortofta</groupId>
     <artifactId>color-picker-field-flow</artifactId>
-    <version>2.0.0.beta6</version>
+    <version>3.0.0-SNAPSHOT</version>
     <name>Color Picker Field for Flow</name>
-    <description>Color Picker Field for Flow</description>
-    <organization>
-        <name>Julien Charpenel</name>
-    </organization>
+    <description>Color Picker Field for Flow. Forked from https://github.com/Juchar/color-picker-field-flow.</description>
     <licenses>
         <license>
             <distribution>repo</distribution>
@@ -19,6 +16,22 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+    <developers>
+        <developer>
+            <name>Julien Charpenel</name>
+            <roles>
+                <role>Original developer</role>   
+            </roles>
+        </developer>
+        <developer>
+            <name>Markus Svensson</name>
+            <email>markus.svensson@me.com</email>
+            <roles>
+                <role>Forker</role>
+            </roles>
+        </developer>
+        
+    </developers>
     <properties>
         <vaadin.version>14.4.4</vaadin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
